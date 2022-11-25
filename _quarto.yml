@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Quartobook"
@@ -18,6 +19,8 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
+    
+delete_merged_file: true
 
 
 
